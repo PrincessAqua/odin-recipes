@@ -1,29 +1,25 @@
 
-
 .recipe-card{
     width: 500px;
-    font-size: 14px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-
     margin: 2em auto;
 }
 
-.rice-img{
+.recipe-img{
     width: 100%;
-    display: inline-block;
     padding: auto;
 }
 
-.ingredients{
+.ingredients, .pre-ingredients{
     background-color: #FFF2DF;
     margin-top: -1em;
-    
     
 }
 
  h2,p{
     text-align: center;
-    padding: 2em 0 1em;
+    padding: 1.5em 0 1em;
     margin: 0;
 }
 
@@ -33,7 +29,7 @@ p{
     padding-right: 2em;
 }
 
- ul{
+ ul, ol{
     margin: 0;
     padding: 0 4em 1em;
 }
@@ -41,9 +37,6 @@ p{
  li{
     padding: 0 1em 1em 0;
 }
-
-
-
 
 .preparation{
     background-color: #F6F6F6;
